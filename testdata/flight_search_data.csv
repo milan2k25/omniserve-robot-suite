@@ -1,0 +1,7 @@
+test_name,from_city,to_city,expected_result,description
+Delhi to Mumbai Flight Search,Delhi,Mumbai,success,Search flights from Delhi to Mumbai
+Bangalore to Chennai Flight Search,Bangalore,Chennai,success,Search flights from Bangalore to Chennai
+Kolkata to Pune Flight Search,Kolkata,Pune,success,Search flights from Kolkata to Pune
+Hyderabad to Ahmedabad Flight Search,Hyderabad,Ahmedabad,success,Search flights from Hyderabad to Ahmedabad
+Goa to Jaipur Flight Search,Goa,Jaipur,success,Search flights from Goa to Jaipur
+Kochi to Indore Flight Search,Kochi,Indore,success,Search flights from Kochi to Indore

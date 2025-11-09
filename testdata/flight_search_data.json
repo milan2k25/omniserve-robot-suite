@@ -1,0 +1,37 @@
+[
+  {
+    "test_name": "Mumbai to Delhi Flight Search",
+    "from_city": "Mumbai",
+    "to_city": "Delhi",
+    "expected_result": "success",
+    "description": "Search flights from Mumbai to Delhi"
+  },
+  {
+    "test_name": "Bangalore to Goa Flight Search",
+    "from_city": "Bangalore",
+    "to_city": "Goa",
+    "expected_result": "success",
+    "description": "Search flights from Bangalore to Goa"
+  },
+  {
+    "test_name": "Chennai to Kolkata Flight Search",
+    "from_city": "Chennai",
+    "to_city": "Kolkata",
+    "expected_result": "success",
+    "description": "Search flights from Chennai to Kolkata"
+  },
+  {
+    "test_name": "Pune to Hyderabad Flight Search",
+    "from_city": "Pune",
+    "to_city": "Hyderabad",
+    "expected_result": "success",
+    "description": "Search flights from Pune to Hyderabad"
+  },
+  {
+    "test_name": "Ahmedabad to Jaipur Flight Search",
+    "from_city": "Ahmedabad",
+    "to_city": "Jaipur",
+    "expected_result": "success",
+    "description": "Search flights from Ahmedabad to Jaipur"
+  }
+]

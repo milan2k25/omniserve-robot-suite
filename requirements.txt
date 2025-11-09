@@ -1,0 +1,93 @@
+# ========================================
+# ClearTrip Robot Framework Project
+# Complete Requirements for Quick Setup
+# ========================================
+
+# Core Robot Framework
+robotframework>=6.0
+robotframework-seleniumlibrary>=6.0.0
+
+# Excel Reading Libraries - All 15 Approaches Supported
+openpyxl>=3.1.0                    # Primary Excel library (openpyxl approach)
+pandas>=2.0.0                      # Data science approach (pandas)
+xlrd>=2.0.0                        # Read-only Excel library
+xlsxwriter>=3.1.0                  # Excel writing capabilities
+numpy>=1.24.0                      # Required for pandas
+
+# Professional Robot Framework Libraries
+rpaframework>=24.0.0               # RPA Framework approach
+robotframework-excellibrary>=0.0.1 # Classic Excel library
+robotframework-datadriver>=1.8.0   # Data-driven testing specialist
+
+# Additional Excel and Data Libraries
+pyexcel>=0.7.0                     # PyExcel unified interface
+pyexcel-xlsx>=0.6.0                # PyExcel Excel support
+tablib[xlsx]>=3.5.0                # Tablib with Excel support
+
+# Windows COM Support (Excel automation)
+pywin32>=306; platform_system=="Windows"     # Windows COM interface
+xlwings>=0.30.0; platform_system=="Windows"  # Excel-Python integration
+
+# Web and API Testing
+robotframework-requests>=0.9.4     # HTTP library for web-based Excel files
+requests>=2.31.0                   # HTTP requests library
+
+# Database Support
+robotframework-databaselibrary>=1.2.4  # Database testing
+pymongo>=4.5.0                     # MongoDB support (optional)
+
+# Process and System Libraries
+robotframework-process>=1.0.0      # Process library for external scripts
+
+# Browser Driver Management
+webdriver-manager>=3.8.0           # Automatic WebDriver management
+
+# Data Validation and Processing
+jsonschema>=4.17.0                 # JSON validation
+pyyaml>=6.0                        # YAML file support
+jinja2>=3.1.0                      # Template engine
+
+# Reporting and Documentation
+robotframework-metrics>=3.3.0      # Enhanced reporting
+robotframework-pabot>=2.16.0       # Parallel test execution
+
+# Development and Testing Tools
+robotframework-lint>=1.1           # Code linting
+robotframework-debuglibrary>=2.3.0 # Debugging support
+pytest>=7.0.0                      # Testing framework
+
+# Code Quality Tools
+black>=23.0.0                      # Code formatting
+flake8>=6.0.0                      # Code linting
+mypy>=1.0.0                        # Type checking
+
+# IDE and Language Server Support
+robotframework-languageserver>=1.10.0  # VS Code language server
+
+# Documentation Generation
+sphinx>=6.0.0                      # Documentation generator
+sphinx-rtd-theme>=1.2.0            # Read the Docs theme
+
+# Image Processing (for screenshot comparisons)
+pillow>=10.0.0                     # Image processing
+opencv-python>=4.8.0               # Computer vision (optional)
+
+# Utilities
+colorama>=0.4.6                    # Colored terminal output
+tqdm>=4.65.0                       # Progress bars
+python-dotenv>=1.0.0               # Environment variable management
+
+# Playwright for Python Web Automation
+playwright>=1.40.0                 # Playwright web automation
+pytest-playwright>=0.4.3           # Playwright pytest integration
+pytest-asyncio>=0.21.0             # Async test support
+
+# Enhanced Testing Framework
+pytest-html>=3.2.0                 # HTML test reports
+pytest-xdist>=3.3.0                # Parallel test execution
+pytest-mock>=3.11.0                # Mocking capabilities
+
+# Optional: Advanced Analytics
+# scipy>=1.11.0                    # Scientific computing
+# matplotlib>=3.7.0                # Plotting (uncomment if needed)
+# seaborn>=0.12.0                  # Statistical plotting (uncomment if needed)
